@@ -6,6 +6,9 @@ import Link from 'next/link'
 
 type Note = {
   id: string
+  title: string
+  url: string
+  thumbnail: string
   [key: string]: any
 }
 
